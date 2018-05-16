@@ -124,112 +124,126 @@
                                 <rect key="frame" x="0.0" y="281.5" width="375" height="321.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b5P-Cz-byP" userLabel="Inner View">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="361.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="368"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOMEWORLD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNz-w6-JlY">
-                                                <rect key="frame" x="20" y="8" width="90" height="14.5"/>
-                                                <fontDescription key="fontDescription" name="DistantGalaxy" family="Distant Galaxy" pointSize="14"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Homeworld&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqR-nv-Csq">
-                                                <rect key="frame" x="20" y="26.5" width="109.5" height="20"/>
-                                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIRTH YEAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dV8-lI-Z0r">
-                                                <rect key="frame" x="20" y="66.5" width="85" height="14.5"/>
-                                                <fontDescription key="fontDescription" name="DistantGalaxy" family="Distant Galaxy" pointSize="14"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Birth Year&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WR-Wc-wxh">
-                                                <rect key="frame" x="20" y="85" width="95" height="20"/>
-                                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENDER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVg-ig-gWj">
-                                                <rect key="frame" x="20" y="125" width="55" height="14.5"/>
-                                                <fontDescription key="fontDescription" name="DistantGalaxy" family="Distant Galaxy" pointSize="14"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Gender&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kh-bA-DgU">
-                                                <rect key="frame" x="20" y="143.5" width="76" height="21"/>
-                                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HAIR COLOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQP-d5-4Qj">
-                                                <rect key="frame" x="20" y="184.5" width="85" height="14.5"/>
-                                                <fontDescription key="fontDescription" name="DistantGalaxy" family="Distant Galaxy" pointSize="14"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Hair Color&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reQ-0D-afc">
-                                                <rect key="frame" x="20" y="203" width="100.5" height="20"/>
-                                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Eye Color&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNo-KM-bJ6">
-                                                <rect key="frame" x="20" y="261.5" width="94.5" height="20"/>
-                                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lrs-mg-YU1">
-                                                <rect key="frame" x="20" y="301.5" width="125" height="32"/>
-                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
-                                                <state key="normal" title="Wookieepedia">
-                                                    <color key="titleColor" red="0.96999999999999997" green="0.83226" blue="0.28129999999999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="openWookieepedia" destination="2sf-x0-Lrl" eventType="touchUpInside" id="auj-aP-BlW"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EYE COLOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erG-TR-36S">
-                                                <rect key="frame" x="20" y="243" width="80.5" height="14.5"/>
-                                                <fontDescription key="fontDescription" name="DistantGalaxy" family="Distant Galaxy" pointSize="14"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQ1-jK-QsL">
-                                                <rect key="frame" x="175" y="301" width="62" height="32"/>
-                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
-                                                <state key="normal" title="Button">
-                                                    <color key="titleColor" red="0.96999999999999997" green="0.83226" blue="0.28129999999999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="OT6-PB-A2b">
+                                                <rect key="frame" x="20" y="8" width="335" height="332"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EiN-ER-ekv">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="35"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOMEWORLD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNz-w6-JlY">
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="14.5"/>
+                                                                <fontDescription key="fontDescription" name="DistantGalaxy" family="Distant Galaxy" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Homeworld&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqR-nv-Csq">
+                                                                <rect key="frame" x="0.0" y="14.5" width="335" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="h1H-l3-GIz">
+                                                        <rect key="frame" x="0.0" y="60" width="335" height="35"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIRTH YEAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dV8-lI-Z0r">
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="14.5"/>
+                                                                <fontDescription key="fontDescription" name="DistantGalaxy" family="Distant Galaxy" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Birth Year&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WR-Wc-wxh">
+                                                                <rect key="frame" x="0.0" y="14.5" width="335" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QxD-s1-bcp">
+                                                        <rect key="frame" x="0.0" y="120" width="335" height="35"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENDER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVg-ig-gWj">
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="14.5"/>
+                                                                <fontDescription key="fontDescription" name="DistantGalaxy" family="Distant Galaxy" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Gender&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kh-bA-DgU">
+                                                                <rect key="frame" x="0.0" y="14.5" width="335" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="55U-NS-Dwy">
+                                                        <rect key="frame" x="0.0" y="180" width="335" height="35"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HAIR COLOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQP-d5-4Qj">
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="14.5"/>
+                                                                <fontDescription key="fontDescription" name="DistantGalaxy" family="Distant Galaxy" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Hair Color&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reQ-0D-afc">
+                                                                <rect key="frame" x="0.0" y="14.5" width="335" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="azJ-hv-XDZ">
+                                                        <rect key="frame" x="0.0" y="240" width="335" height="35"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EYE COLOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erG-TR-36S">
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="14.5"/>
+                                                                <fontDescription key="fontDescription" name="DistantGalaxy" family="Distant Galaxy" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Eye Color&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNo-KM-bJ6">
+                                                                <rect key="frame" x="0.0" y="14.5" width="335" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="XF8-Rj-X7K">
+                                                        <rect key="frame" x="0.0" y="300" width="335" height="32"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lrs-mg-YU1">
+                                                                <rect key="frame" x="0.0" y="0.0" width="125" height="32"/>
+                                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                                                <state key="normal" title="Wookieepedia">
+                                                                    <color key="titleColor" red="0.96999999999999997" green="0.83226" blue="0.28129999999999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="openWookieepedia" destination="2sf-x0-Lrl" eventType="touchUpInside" id="auj-aP-BlW"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQ1-jK-QsL">
+                                                                <rect key="frame" x="273" y="0.0" width="62" height="32"/>
+                                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                                                <state key="normal" title="Button">
+                                                                    <color key="titleColor" red="0.96999999999999997" green="0.83226" blue="0.28129999999999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="jqR-nv-Csq" firstAttribute="top" secondItem="TNz-w6-JlY" secondAttribute="bottom" constant="4" id="2BB-JC-ZN8"/>
-                                            <constraint firstItem="mQ1-jK-QsL" firstAttribute="leading" secondItem="Lrs-mg-YU1" secondAttribute="trailing" constant="30" id="2y5-1o-g4w"/>
-                                            <constraint firstItem="GNo-KM-bJ6" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="9nF-DM-1eB"/>
-                                            <constraint firstItem="dV8-lI-Z0r" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="BtL-4O-s5h"/>
-                                            <constraint firstItem="7WR-Wc-wxh" firstAttribute="top" secondItem="dV8-lI-Z0r" secondAttribute="bottom" constant="4" id="DIV-IY-gjV"/>
-                                            <constraint firstItem="bVg-ig-gWj" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="FcG-WX-sxD"/>
-                                            <constraint firstItem="Lrs-mg-YU1" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="Lcd-eQ-L4k"/>
-                                            <constraint firstItem="7kh-bA-DgU" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="Llt-Un-Hm0"/>
-                                            <constraint firstItem="jqR-nv-Csq" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="Myr-Ja-N2l"/>
-                                            <constraint firstItem="TNz-w6-JlY" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="Oqb-QO-een"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="Lrs-mg-YU1" secondAttribute="bottom" constant="20" id="Q3F-SE-MhZ"/>
-                                            <constraint firstItem="bVg-ig-gWj" firstAttribute="top" secondItem="7WR-Wc-wxh" secondAttribute="bottom" constant="20" id="Rrb-5R-lBI"/>
-                                            <constraint firstItem="dV8-lI-Z0r" firstAttribute="top" secondItem="jqR-nv-Csq" secondAttribute="bottom" constant="20" id="UKH-lg-0A8"/>
-                                            <constraint firstItem="erG-TR-36S" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="VEa-we-XUg"/>
-                                            <constraint firstItem="tQP-d5-4Qj" firstAttribute="top" secondItem="7kh-bA-DgU" secondAttribute="bottom" constant="20" id="a3C-FK-bT6"/>
-                                            <constraint firstItem="GNo-KM-bJ6" firstAttribute="top" secondItem="erG-TR-36S" secondAttribute="bottom" constant="4" id="cTz-hT-U25"/>
-                                            <constraint firstItem="reQ-0D-afc" firstAttribute="top" secondItem="tQP-d5-4Qj" secondAttribute="bottom" constant="4" id="gWo-bM-BjI"/>
-                                            <constraint firstItem="tQP-d5-4Qj" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="jLi-ZV-sNb"/>
-                                            <constraint firstItem="TNz-w6-JlY" firstAttribute="top" secondItem="b5P-Cz-byP" secondAttribute="topMargin" id="jjw-jl-Aka"/>
-                                            <constraint firstItem="erG-TR-36S" firstAttribute="top" secondItem="reQ-0D-afc" secondAttribute="bottom" constant="20" id="n2x-k0-awV"/>
-                                            <constraint firstItem="mQ1-jK-QsL" firstAttribute="centerY" secondItem="Lrs-mg-YU1" secondAttribute="centerY" id="nNZ-tG-ZeR"/>
-                                            <constraint firstItem="Lrs-mg-YU1" firstAttribute="top" secondItem="GNo-KM-bJ6" secondAttribute="bottom" constant="20" id="oCu-SA-xXE"/>
-                                            <constraint firstItem="reQ-0D-afc" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="oUc-mg-A5G"/>
-                                            <constraint firstItem="7WR-Wc-wxh" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="u9M-fe-7vX"/>
-                                            <constraint firstItem="7kh-bA-DgU" firstAttribute="top" secondItem="bVg-ig-gWj" secondAttribute="bottom" constant="4" id="xJy-zw-C7g"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="OT6-PB-A2b" secondAttribute="bottom" constant="20" id="51f-2E-oWz"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="OT6-PB-A2b" secondAttribute="trailing" constant="12" id="Bev-us-DQT"/>
+                                            <constraint firstItem="OT6-PB-A2b" firstAttribute="leading" secondItem="b5P-Cz-byP" secondAttribute="leadingMargin" constant="12" id="MuA-NV-XHV"/>
+                                            <constraint firstItem="OT6-PB-A2b" firstAttribute="top" secondItem="b5P-Cz-byP" secondAttribute="topMargin" id="ufO-iF-sHm"/>
                                         </constraints>
                                     </view>
                                 </subviews>
