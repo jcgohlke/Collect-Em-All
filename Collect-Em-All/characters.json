@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Luke Skywalker",
+    "hair_color": "blond",
+    "eye_color": "blue",
+    "birth_year": "19BBY",
+    "gender": "male",
+    "homeworld": "Tatooine"
+  },
+  {
+    "name": "Lando Calrissian",
+    "hair_color": "black",
+    "eye_color": "brown",
+    "birth_year": "31BBY",
+    "gender": "male",
+    "homeworld": "Socorro"
+  },
+  {
+    "name": "Leia Organa",
+    "hair_color": "brown",
+    "eye_color": "brown",
+    "birth_year": "19BBY",
+    "gender": "female",
+    "homeworld": "Alderaan"
+  },
+  {
+    "name": "Darth Vader",
+    "hair_color": "none",
+    "eye_color": "yellow",
+    "birth_year": "41.9BBY",
+    "gender": "male",
+    "homeworld": "Tatooine"
+  },
+  {
+    "name": "C-3PO",
+    "hair_color": "n/a",
+    "eye_color": "yellow",
+    "birth_year": "112BBY",
+    "gender": "n/a",
+    "homeworld": "Tatooine"
+  },
+  {
+    "name": "Obi-Wan Kenobi",
+    "hair_color": "auburn",
+    "eye_color": "blue-gray",
+    "birth_year": "57BBY",
+    "gender": "male",
+    "homeworld": "Stewjon"
+  },
+  {
+    "name": "Han Solo",
+    "hair_color": "brown",
+    "eye_color": "brown",
+    "birth_year": "29BBY",
+    "gender": "male",
+    "homeworld": "Corellia"
+  },
+  {
+    "name": "Chewbacca",
+    "hair_color": "brown",
+    "eye_color": "blue",
+    "birth_year": "200BBY",
+    "gender": "male",
+    "homeworld": "Kashyyyk"
+  }
+]
